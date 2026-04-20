@@ -8,7 +8,7 @@ label = "简体中文"
 weight = 9
 
 # 中文版网站标题
-title = "饿梦博客"
+title = "饿梦的小黑屋"
 
 # ============================================
 # 显示参数配置
@@ -74,159 +74,13 @@ title = "饿梦博客"
     # 个人网站
     # { link = "https://your-website.com" },
     
-    # 亚马逊愿望单
-    # { amazon = "https://www.amazon.com/hz/wishlist/ls/xxx" },
-    
-    # 苹果
-    # { apple = "https://www.apple.com" },
-    
     # Blogger 博客
     # { blogger = "https://username.blogspot.com" },
-    
-    # Bluesky
-    # { bluesky = "https://bsky.app/profile/username" },
-    
-    # CodePen
-    # { codepen = "https://codepen.io/username" },
-    
-    # Dev.to
-    # { dev = "https://dev.to/username" },
-    
-    # Discord
-    # { discord = "https://discord.gg/invitecode" },
-    
-    # Dribbble
-    # { dribbble = "https://dribbble.com/username" },
-    
-    # Facebook
-    # { facebook = "https://facebook.com/username" },
-    
-    # Flickr
-    # { flickr = "https://www.flickr.com/photos/username" },
-    
-    # Foursquare
-    # { foursquare = "https://foursquare.com/username" },
     
     # GitHub（已启用）
     { github = "https://github.com/Hungerdream" },
     
-    # GitLab
-    # { gitlab = "https://gitlab.com/username" },
-    
-    # Google
-    # { google = "https://www.google.com" },
-    
-    # Hashnode
-    # { hashnode = "https://username.hashnode.dev" },
-    
-    # Instagram
-    # { instagram = "https://instagram.com/username" },
-    
-    # itch.io
-    # { itch-io = "https://username.itch.io" },
-    
-    # Keybase
-    # { keybase = "https://keybase.io/username" },
-    
-    # Keyoxide
-    # { keyoxide = "https://keyoxide.org/URI" },
-    
-    # Kickstarter
-    # { kickstarter = "https://www.kickstarter.com/profile/username" },
-    
-    # Last.fm
-    # { lastfm = "https://lastfm.com/user/username" },
-    
-    # LinkedIn
-    # { linkedin = "https://linkedin.com/in/username" },
-    
-    # Mastodon
-    # { mastodon = "https://mastodon.instance/@username" },
-    
-    # Matrix
-    # { matrix = "https://matrix.to/#/URI" },
-    
-    # Medium
-    # { medium = "https://medium.com/username" },
-    
-    # Microsoft
-    # { microsoft = "https://www.microsoft.com" },
-    
-    # ORCID
-    # { orcid = "https://orcid.org/userid" },
-    
-    # Patreon
-    # { patreon = "https://www.patreon.com/username" },
-    
-    # Pinterest
-    # { pinterest = "https://pinterest.com/username" },
-    
-    # Reddit
-    # { reddit = "https://reddit.com/user/username" },
-    
-    # ResearchGate
-    # { researchgate = "https://www.researchgate.net/profile/username" },
-    
-    # Signal
-    # { signal = "https://signal.me/#eu/userid" },
-    
-    # Slack
-    # { slack = "https://workspace.url/team/userid" },
-    
-    # Snapchat
-    # { snapchat = "https://snapchat.com/add/username" },
-    
-    # SoundCloud
-    # { soundcloud = "https://soundcloud.com/username" },
-    
-    # Spotify
-    # { spotify = "https://open.spotify.com/user/userid" },
-    
-    # Stack Overflow
-    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-    
     # Steam
     # { steam = "https://steamcommunity.com/profiles/userid" },
     
-    # Strava
-    # { strava = "https://www.strava.com/athletes/username" },
-    
-    # Telegram
-    # { telegram = "https://t.me/username" },
-    
-    # Threads
-    # { threads = "https://www.threads.net/@username" },
-    
-    # TikTok
-    # { tiktok = "https://tiktok.com/@username" },
-    
-    # Tumblr
-    # { tumblr = "https://username.tumblr.com" },
-    
-    # Twitch
-    # { twitch = "https://twitch.tv/username" },
-    
-    # Untappd
-    # { untappd = "https://untappd.com/user/username" },
-    
-    # Twitter（旧版）
-    # { twitter = "https://twitter.com/username" },
-    
-    # X（Twitter 新版）
-    # { x-twitter = "https://twitter.com/username" },
-    
-    # WhatsApp
-    # { whatsapp = "https://wa.me/phone-number" },
-    
-    # YouTube
-    # { youtube = "https://youtube.com/username" },
-    
-    # Ko-fi
-    # { ko-fi = "https://ko-fi.com/username" },
-    
-    # Codeberg
-    # { codeberg = "https://codeberg.org/username" },
-    
-    # Printables
-    # { printables = "https://www.printables.com/@username" },
   ]

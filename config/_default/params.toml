@@ -23,7 +23,7 @@ disableImageOptimization = false      # 禁用图片优化
 disableImageOptimizationMD = false   # 仅禁用 Markdown 图片优化
 disableTextInHeader = false           # 禁用页头文字（适合纯 Logo）
 
-defaultBackgroundImage = "img/background.jpg"  # 默认背景图
+defaultBackgroundImage = "img/background.webp"  # 默认背景图
 # defaultFeaturedImage = "IMAGE.jpg"       # 文章默认缩略图
 # defaultSocialImage = "/android-chrome-512x512.png"  # 社交分享图
 hotlinkFeatureImage = false           # 图片外链模式
