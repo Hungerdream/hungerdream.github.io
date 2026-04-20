@@ -23,7 +23,7 @@ disableImageOptimization = false      # 禁用图片优化
 disableImageOptimizationMD = false   # 仅禁用 Markdown 图片优化
 disableTextInHeader = false           # 禁用页头文字（适合纯 Logo）
 
-# defaultBackgroundImage = "IMAGE.jpg"      # 默认背景图
+defaultBackgroundImage = "img/background.jpg"  # 默认背景图
 # defaultFeaturedImage = "IMAGE.jpg"       # 文章默认缩略图
 # defaultSocialImage = "/android-chrome-512x512.png"  # 社交分享图
 hotlinkFeatureImage = false           # 图片外链模式
@@ -36,7 +36,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 # -- 页头 --
 [header]
-  layout = "basic"  # basic（默认）/ fixed（固定）/ fixed-fill / fixed-gradient / fixed-fill-blur
+  layout = "fixed-fill-blur"  # basic（默认）/ fixed（固定）/ fixed-fill / fixed-gradient / fixed-fill-blur
 
 # -- 页脚 --
 [footer]
@@ -48,8 +48,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 # -- 主页 --
 [homepage]
-  layout = "profile"  # page / profile / hero / card / background / custom
-  # homepageImage = "IMAGE.jpg"  # 用于 hero 和 card 布局
+  layout = "background"  # page / profile / hero / card / background / custom
+  homepageImage = "img/background.jpg"  # 用于 hero 和 card 布局
   
   showRecent = false       # 显示最新文章
   showRecentItems = 5     # 显示数量
@@ -58,7 +58,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   
   cardView = false         # 卡片布局
   cardViewScreenWidth = false  # 卡片全宽
-  layoutBackgroundBlur = false  # 背景模糊（仅 background 布局）
+  layoutBackgroundBlur = true  # 背景模糊（仅 background 布局）
   disableHeroImageFilter = false  # 禁用图片滤镜（仅 hero 布局）
 
 # -- 文章页 --
@@ -106,8 +106,4 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [taxonomy]
   showTermCount = true         # 显示文章数量
 
-# -- 作者信息 --
-[author]
-  name = "饿梦"
-  email = "chenzihiggins@foxmail.com"
-  bio = "DevOps开发者"
+

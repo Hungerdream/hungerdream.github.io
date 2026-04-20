@@ -36,11 +36,7 @@
 #  pageRef = "tags/interesting-topic"
 #  weight = 10
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
+
 
 #[[main]]
 #  name = "Categories"
@@ -83,3 +79,7 @@
   pageRef = 'about'
   weight = 30
 
+ [[main]]
+   pre = "github"
+   url = "https://github.com/Hungerdream"
+   weight = 40

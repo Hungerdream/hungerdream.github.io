@@ -52,7 +52,7 @@ title = "饿梦博客"
   
   # 头像图片路径（相对于 static 目录）
   # 留空表示不使用头像
-  image = ""
+  image = "img/author.jpg"
   
   # 头像图片质量（1-100）
   # imageQuality = 96
