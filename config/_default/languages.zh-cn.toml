@@ -1,0 +1,232 @@
+# 语言代码（ISO 639-1）
+locale = "zh-cn"
+
+# 语言选择器中显示的名称
+label = "简体中文"
+
+# 排序权重，数字越小排序越靠前
+weight = 9
+
+# 中文版网站标题
+title = "饿梦博客"
+
+# ============================================
+# 显示参数配置
+# ============================================
+[params]
+  # 语言切换按钮上显示的缩写
+  displayName = "简体中文"
+  
+  # ISO 语言代码
+  isoCode = "zh-cn"
+  
+  # 是否启用从右到左显示（阿拉伯语、希伯来语等需要）
+  rtl = false
+  
+  # 日期显示格式
+  # 2006 = 年，01 = 月，02 = 日
+  dateFormat = "2006-01-02"
+  
+  # 网站 Logo 图片路径（相对于 static 目录）
+  # 留空表示不使用 logo
+  logo = ""
+  
+  # 次要 Logo（用于暗色模式等场景）
+  # secondaryLogo = "img/secondary-logo.png"
+  
+  # 网站描述（用于 SEO 和订阅）
+  description = "DevOps开发"
+  
+  # 版权信息（支持 HTML）
+  # copyright = "© 2026 饿梦"
+
+# ============================================
+# 作者信息配置
+# ============================================
+[params.author]
+  # 作者显示名称
+  name = "饿梦"
+  
+  # 联系邮箱
+  # email = "youremail@example.com"
+  
+  # 头像图片路径（相对于 static 目录）
+  # 留空表示不使用头像
+  image = ""
+  
+  # 头像图片质量（1-100）
+  # imageQuality = 96
+  
+  # 副标题/签名
+  headline = "DevOps开发者"
+  
+  # 个人简介
+  bio = "记录学习过程，分享技术心得"
+  
+  # ==========================================
+  # 社交链接列表
+  # 取消注释你想显示的链接，填上你的地址
+  # ==========================================
+  links = [
+    # 邮箱
+    # { email = "mailto:your@email.com" },
+    
+    # 个人网站
+    # { link = "https://your-website.com" },
+    
+    # 亚马逊愿望单
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/xxx" },
+    
+    # 苹果
+    # { apple = "https://www.apple.com" },
+    
+    # Blogger 博客
+    # { blogger = "https://username.blogspot.com" },
+    
+    # Bluesky
+    # { bluesky = "https://bsky.app/profile/username" },
+    
+    # CodePen
+    # { codepen = "https://codepen.io/username" },
+    
+    # Dev.to
+    # { dev = "https://dev.to/username" },
+    
+    # Discord
+    # { discord = "https://discord.gg/invitecode" },
+    
+    # Dribbble
+    # { dribbble = "https://dribbble.com/username" },
+    
+    # Facebook
+    # { facebook = "https://facebook.com/username" },
+    
+    # Flickr
+    # { flickr = "https://www.flickr.com/photos/username" },
+    
+    # Foursquare
+    # { foursquare = "https://foursquare.com/username" },
+    
+    # GitHub（已启用）
+    { github = "https://github.com/Hungerdream" },
+    
+    # GitLab
+    # { gitlab = "https://gitlab.com/username" },
+    
+    # Google
+    # { google = "https://www.google.com" },
+    
+    # Hashnode
+    # { hashnode = "https://username.hashnode.dev" },
+    
+    # Instagram
+    # { instagram = "https://instagram.com/username" },
+    
+    # itch.io
+    # { itch-io = "https://username.itch.io" },
+    
+    # Keybase
+    # { keybase = "https://keybase.io/username" },
+    
+    # Keyoxide
+    # { keyoxide = "https://keyoxide.org/URI" },
+    
+    # Kickstarter
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    
+    # Last.fm
+    # { lastfm = "https://lastfm.com/user/username" },
+    
+    # LinkedIn
+    # { linkedin = "https://linkedin.com/in/username" },
+    
+    # Mastodon
+    # { mastodon = "https://mastodon.instance/@username" },
+    
+    # Matrix
+    # { matrix = "https://matrix.to/#/URI" },
+    
+    # Medium
+    # { medium = "https://medium.com/username" },
+    
+    # Microsoft
+    # { microsoft = "https://www.microsoft.com" },
+    
+    # ORCID
+    # { orcid = "https://orcid.org/userid" },
+    
+    # Patreon
+    # { patreon = "https://www.patreon.com/username" },
+    
+    # Pinterest
+    # { pinterest = "https://pinterest.com/username" },
+    
+    # Reddit
+    # { reddit = "https://reddit.com/user/username" },
+    
+    # ResearchGate
+    # { researchgate = "https://www.researchgate.net/profile/username" },
+    
+    # Signal
+    # { signal = "https://signal.me/#eu/userid" },
+    
+    # Slack
+    # { slack = "https://workspace.url/team/userid" },
+    
+    # Snapchat
+    # { snapchat = "https://snapchat.com/add/username" },
+    
+    # SoundCloud
+    # { soundcloud = "https://soundcloud.com/username" },
+    
+    # Spotify
+    # { spotify = "https://open.spotify.com/user/userid" },
+    
+    # Stack Overflow
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    
+    # Steam
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    
+    # Strava
+    # { strava = "https://www.strava.com/athletes/username" },
+    
+    # Telegram
+    # { telegram = "https://t.me/username" },
+    
+    # Threads
+    # { threads = "https://www.threads.net/@username" },
+    
+    # TikTok
+    # { tiktok = "https://tiktok.com/@username" },
+    
+    # Tumblr
+    # { tumblr = "https://username.tumblr.com" },
+    
+    # Twitch
+    # { twitch = "https://twitch.tv/username" },
+    
+    # Untappd
+    # { untappd = "https://untappd.com/user/username" },
+    
+    # Twitter（旧版）
+    # { twitter = "https://twitter.com/username" },
+    
+    # X（Twitter 新版）
+    # { x-twitter = "https://twitter.com/username" },
+    
+    # WhatsApp
+    # { whatsapp = "https://wa.me/phone-number" },
+    
+    # YouTube
+    # { youtube = "https://youtube.com/username" },
+    
+    # Ko-fi
+    # { ko-fi = "https://ko-fi.com/username" },
+    
+    # Codeberg
+    # { codeberg = "https://codeberg.org/username" },
+    
+    # Printables
+    # { printables = "https://www.printables.com/@username" },
+  ]
