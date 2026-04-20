@@ -92,6 +92,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 # -- 列表页 --
 [list]
+  showHero = true              # 显示背景图
+  heroStyle = "background"     # basic / big / background / thumbAndBackground
   showBreadcrumbs = false      # 面包屑
   showSummary = false          # 显示摘要
   showCards = false            # 卡片样式
