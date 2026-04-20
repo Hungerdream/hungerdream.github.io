@@ -1,6 +1,6 @@
 # 饿梦博客
 
-DevOps 
+DevOps 开发者
 
----
-Powered by Hugo + Blowfish
+
+Powered by [Hugo](https://gohugo.io/) + [Blowfish](https://blowfish.page/)

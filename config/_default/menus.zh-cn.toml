@@ -70,16 +70,16 @@
 
 [[main]]
   name = '首页'
-  url = '/'
+  pageRef = 'index'
   weight = 10
 
 [[main]]
   name = '文章'
-  url = '/posts/'
+  pageRef = 'posts'
   weight = 20
 
 [[main]]
   name = '关于'
-  url = '/about/'
+  pageRef = 'about'
   weight = 30
 
