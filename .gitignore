@@ -1,0 +1,8 @@
+# Hugo 构建输出
+/public/
+/resources/
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
