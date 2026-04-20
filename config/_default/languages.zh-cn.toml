@@ -29,7 +29,7 @@ title = "饿梦的小黑屋"
   
   # 网站 Logo 图片路径（相对于 static 目录）
   # 留空表示不使用 logo
-  logo = ""
+  logo = "img/cat-logo.svg"
   
   # 次要 Logo（用于暗色模式等场景）
   # secondaryLogo = "img/secondary-logo.png"
