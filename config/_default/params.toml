@@ -71,8 +71,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showAuthor = false            # 显示作者
   # showAuthorBottom = false    # 作者信息放底部
   
-  showHero = false             # 缩略图为 Hero 图
-  # heroStyle = "basic"        # basic / big / background / thumbAndBackground
+  showHero = true              # 缩略图为 Hero 图
+  heroStyle = "background"     # basic / big / background / thumbAndBackground
   
   showBreadcrumbs = false      # 面包屑导航
   showDraftLabel = true        # 显示草稿标签
