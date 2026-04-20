@@ -1,0 +1,12 @@
+/* Logo 大小调整 */
+.site-logo {
+    height: 2rem !important;
+    width: auto !important;
+}
+
+/* 移动端 Logo */
+@media (max-width: 768px) {
+    .site-logo {
+        height: 1.5rem !important;
+    }
+}
