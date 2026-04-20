@@ -1,5 +1,0 @@
-baseURL = 'https://hungerdream.github.io'
-locale = 'zh-cn'
-defaultContentLanguage = 'zh'
-title = '饿梦博客'
-theme = "blowfish"
