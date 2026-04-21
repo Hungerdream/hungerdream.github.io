@@ -48,7 +48,7 @@ title = "饿梦的小黑屋"
   name = "饿梦"
   
   # 联系邮箱
-  # email = "youremail@example.com"
+  email = "youremail@example.com"
   
   # 头像图片路径（相对于 static 目录）
   # 留空表示不使用头像
@@ -65,17 +65,10 @@ title = "饿梦的小黑屋"
   
   # ==========================================
   # 社交链接列表
-  # 取消注释你想显示的链接，填上你的地址
   # ==========================================
   links = [
-    # 邮箱
-    # { email = "mailto:your@email.com" },
-    
-    # 个人网站
-    # { link = "https://your-website.com" },
-    
-    # Blogger 博客
-    # { blogger = "https://username.blogspot.com" },
+    # 邮箱（跳转页面）
+    { emailpage = "/links/email/" },
     
     # GitHub（已启用）
     { github = "https://github.com/Hungerdream" },

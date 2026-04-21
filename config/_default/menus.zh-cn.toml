@@ -1,77 +1,80 @@
-# -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
+# -- 顶部导航菜单 --
+# 顶部导航菜单位于页面顶部的 header 区域。
+# 可用参数：name, pageRef, page, url, title, weight#
+# 最简单的配置方式是提供：
+#   name = 菜单链接显示的名称
+#   pageRef = 要链接到的页面或章节的标识符
 #
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
+# 默认情况下菜单按字母顺序排列。
+# 可以通过设置 weight 参数来覆盖默认顺序，权重从低到高排序。
 
 #[[main]]
-#  name = "Blog"
+#  name = "博客"
 #  pageRef = "posts"
 #  weight = 10
 
 #[[main]]
-#  name = "Parent"
+#  name = "父级菜单"
 #  weight = 20
 
 #[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
+#  name = "示例子菜单 1"
+#  parent = "父级菜单"
 #  pageRef = "posts"
 #  weight = 20
 
 #[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
+#  name = "示例子菜单 2"
+#  parent = "父级菜单"
 #  pageRef = "posts"
 #  weight = 20
 
 #[[subnavigation]]
-#  name = "An interesting topic"
+#  name = "有趣的话题"
 #  pageRef = "tags/interesting-topic"
 #  weight = 10
 
 
 
 #[[main]]
-#  name = "Categories"
+#  name = "分类"
 #  pageRef = "categories"
 #  weight = 20
 
 #[[main]]
-#  name = "Tags"
+#  name = "标签"
 #  pageRef = "tags"
 #  weight = 30
 
 
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
+# -- 底部导航菜单 --
+# 底部导航菜单位于页面底部，位于版权声明之前。
+# 配置方式同顶部导航菜单。
 
 
 # [[footer]]
-#   name = "Tags"
+#   name = "标签"
 #   pageRef = "tags"
 #   weight = 10
 
 # [[footer]]
-#   name = "Categories"
+#   name = "分类"
 #   pageRef = "categories"
 #   weight = 20
 
-[[main]]
-  name = '首页'
-  pageRef = 'index'
-  weight = 10
+# [[main]]
+#  name = '首页'
+#  pageRef = 'index'
+#  weight = 10
 
 [[main]]
   name = '文章'
   pageRef = 'posts'
+  weight = 10
+
+[[main]]
+  name = '标签'
+  pageRef = "tags"
   weight = 20
 
 [[main]]
