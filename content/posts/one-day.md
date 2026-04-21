@@ -3,7 +3,7 @@ title: "此帖注水"
 date: 2026-04-21
 categories: ["杂谈"]
 tags: ["Hugo", "Blowfish", "博客"]
-showAuthor: false
+showComments: true 
 ---
 
 ## 蓝莓的故事

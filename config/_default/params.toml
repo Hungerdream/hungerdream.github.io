@@ -83,7 +83,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTableOfContents = false  # 文章目录
   showWordCount = true         # 字数统计
   
-  showTaxonomies = false       # 显示分类/标签
+  showTaxonomies = false
+  showComments = true  # 显示评论区       # 显示分类/标签
   showCategories = true        # 显示分类
   showTags = true              # 显示标签
   showAuthorsBadges = false    # 作者徽章

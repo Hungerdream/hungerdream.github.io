@@ -11,8 +11,4 @@
     }
 }
 
-/* Header 导航栏高度调整 */
-div.fixed {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
+/* Header 导航栏高度调整（默认无额外 padding） */
