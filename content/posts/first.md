@@ -4,6 +4,7 @@ date: 2026-04-20
 description: "这是一个新的博客"
 categories: ["杂谈"]
 tags: ["Hugo", "Blowfish", "博客"]
+showComments: true 
 ---
 
 ## 前言
