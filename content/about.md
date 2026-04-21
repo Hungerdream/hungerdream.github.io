@@ -3,6 +3,7 @@ title: "关于"
 description: "关于饿梦"
 showDate: false
 showAuthor: true
+showComments: false
 ---
 这里是饿梦的博客，博主是一名大三的学生，立志于DevOps。
 

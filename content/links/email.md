@@ -3,6 +3,8 @@ title: "邮箱"
 showDate: false
 showReadingTime: false
 showWordCount: false
+showAuthor: true
+showComments: false
 ---
 QQ Email: 1710233908@qq.com
 
