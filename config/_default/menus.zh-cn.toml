@@ -82,7 +82,7 @@
   pageRef = 'about'
   weight = 30
 
- [[main]]
+[[main]]
    pre = "github"
    url = "https://github.com/Hungerdream"
    weight = 40

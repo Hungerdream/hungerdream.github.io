@@ -8,7 +8,7 @@ label = "简体中文"
 weight = 9
 
 # 中文版网站标题
-title = "饿梦的小黑屋"
+title = "饿梦的小世界"
 
 # ============================================
 # 显示参数配置
@@ -61,7 +61,7 @@ title = "饿梦的小黑屋"
   headline = "DevOps开发者"
   
   # 个人简介
-  # bio = "记录学习过程，分享技术心得"
+   bio = "欢迎来到饿梦的小世界"
   
   # ==========================================
   # 社交链接列表
@@ -74,6 +74,6 @@ title = "饿梦的小黑屋"
     { github = "https://github.com/Hungerdream" },
     
     # Steam
-    # { steam = "https://steamcommunity.com/profiles/userid" },
+    { steam = "https://steamcommunity.com/profiles/76561198380150438/" },
     
   ]

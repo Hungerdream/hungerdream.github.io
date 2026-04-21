@@ -36,7 +36,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 # -- 页头 --
 [header]
-  layout = "fixed-fill-blur"  # basic（默认）/ fixed（固定）/ fixed-fill / fixed-gradient / fixed-fill-blur
+  layout = "fixed"  # basic（默认）/ fixed（固定）/ fixed-fill / fixed-gradient / fixed-fill-blur
 
 # -- 页脚 --
 [footer]
@@ -51,12 +51,12 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layout = "background"  # page / profile / hero / card / background / custom
   homepageImage = "img/background.webp"  # 用于 hero 和 card 布局
   
-  showRecent = false       # 显示最新文章
+  showRecent = true       # 显示最新文章
   showRecentItems = 5     # 显示数量
-  showMoreLink = false    # 显示"查看更多"
+  showMoreLink = true    # 显示"查看更多"
   showMoreLinkDest = "/posts/"  # 链接指向
   
-  cardView = false         # 卡片布局
+  cardView = true         # 卡片布局
   cardViewScreenWidth = false  # 卡片全宽
   layoutBackgroundBlur = true  # 背景模糊（仅 background 布局）
   disableHeroImageFilter = false  # 禁用图片滤镜（仅 hero 布局）
@@ -68,7 +68,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showLikes = false            # 显示点赞（需 Firebase）
   showDateOnlyInArticle = false  # 仅在文章内显示日期
   showDateUpdated = false      # 显示更新日期
-  showAuthor = true            # 显示作者
+  showAuthor = false            # 显示作者
   # showAuthorBottom = false    # 作者信息放底部
   
   showHero = true              # 缩略图为 Hero 图
@@ -101,6 +101,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   orderByWeight = false        # 按权重排序
 
 
+# -- 标签详情页（如 /tags/技术/）--
+[term]
+  showHero = true
+  heroStyle = "background"
+  
 # -- 站点地图 --
 [sitemap]
   excludedKinds = ["taxonomy", "term"]  # 排除的页面类型

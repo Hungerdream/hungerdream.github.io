@@ -6,7 +6,7 @@
 baseURL = 'https://hungerdream.github.io'
 locale = 'zh-cn'
 defaultContentLanguage = 'zh-cn'
-title = '饿梦博客'
+title = '饿梦的小世界'
 theme = "blowfish"
 hasCJKLanguage = true  # 中文语言支持
 

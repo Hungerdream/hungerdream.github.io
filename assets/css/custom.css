@@ -1,6 +1,6 @@
 /* Logo 大小调整 */
 .site-logo {
-    height: 2rem !important;
+    height: auto !important;
     width: auto !important;
 }
 
@@ -9,4 +9,10 @@
     .site-logo {
         height: 1.5rem !important;
     }
+}
+
+/* Header 导航栏高度调整 */
+div.fixed {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
