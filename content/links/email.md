@@ -6,6 +6,6 @@ showWordCount: false
 showAuthor: true
 showComments: false
 ---
-QQ Email: 1710233908@qq.com
+QQ Email: <1710233908@qq.com>
 
-163 Email: hungerdream@163.com
+163 Email: <hungerdream@163.com>

@@ -11,7 +11,7 @@ autoSwitchAppearance = true  # 自动跟随系统主题切换
 
 enableA11y = false           # 启用无障碍功能
 enableSearch = true         # 启用搜索功能
-enableCodeCopy = false      # 代码块复制按钮
+enableCodeCopy = true     # 代码块复制按钮
 enableStructuredBreadcrumbs = false  # 结构化面包屑（SEO优化）
 
 replyByEmail = false         # 启用"邮件回复"功能
@@ -80,16 +80,20 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHeadingAnchors = true    # 标题锚点
   showPagination = true       # 上/下篇导航
   showReadingTime = true       # 阅读时间
-  showTableOfContents = false  # 文章目录
+  showTableOfContents = true  # 文章目录
   showWordCount = true         # 字数统计
   
   showTaxonomies = false
   showComments = true  # 显示评论区       # 显示分类/标签
   showCategories = true        # 显示分类
   showTags = true              # 显示标签
-  showAuthorsBadges = false    # 作者徽章
+  showAuthorsBadges = true    # 作者徽章
   
   showZenMode = false          # 禅模式（隐藏界面）
+
+  [article.copywrite]
+    enabled = true
+    type = "CC-BY-NC-SA-4.0"
 
 # -- 列表页 --
 [list]

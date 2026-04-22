@@ -73,6 +73,13 @@
   weight = 10
 
 [[main]]
+  name = 'Python'
+  pageRef = '/posts/python'
+  parent = "文章"
+  weight = 11
+
+
+[[main]]
   name = '标签'
   pageRef = "tags"
   weight = 20
